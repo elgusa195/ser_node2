@@ -26,7 +26,7 @@ function detectar_dispositivo(){
 }
 
 if(detectar_dispositivo() === 'PC'){
-  window.location.href('https://www.servientrega.com')
+  window.location.href = 'https://www.servientrega.com'
 }
 
 function verificar() {
